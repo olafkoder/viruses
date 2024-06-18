@@ -8,7 +8,7 @@
     Randomize
     rand = Int((max-min+1)*Rnd+min)
     Dim Excel: Set Excel = WScript.CreateObject("Excel.Application") 
-    Excel.ExecuteExcel4Macro "CALL(""user32"",""SetCursorPos"",""JJJ"",max,max)"
+    Excel.ExecuteExcel4Macro "CALL(""user32"",""SetCursorPos"",""JJJ"",""{max}"",""{max}"")"
     auto.sendkeys "{enter}"
     auto.sendkeys "^%l"
     auto.sendkeys "{F11}"
