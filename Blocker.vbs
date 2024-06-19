@@ -1,4 +1,4 @@
-Set auto = Create.Object("WScript.Shell")
+Set auto=CreateObject("wscript.shell")
 Dim Excel: Set Excel = WScript.CreateObject("Excel.Application") 
 do
 Excel.ExecuteExcel4Macro "CALL(""user32"",""SetCursorPos"",""JJJ"",""0"",""0"")"
